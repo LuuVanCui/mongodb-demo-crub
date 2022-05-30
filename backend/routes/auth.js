@@ -69,14 +69,3 @@ router.post("/signup", (req, res, next) => {
 });
 
 module.exports = router;
-
-db.file.insertOne({
-  pathId: "p1",
-  path: "http://localhost:3100/images/product-purse.jpg",
-  name: 'Product Purse',
-  bu: {
-    _id: '1',
-    name: 'Bu1',
-    oem: ['o1', 'o2', 'o3']
-  }
-});
